@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HookLab", "HookLab\HookLab.csproj", "{89AE7361-7A21-4663-9C1C-504A2BCB55F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89AE7361-7A21-4663-9C1C-504A2BCB55F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89AE7361-7A21-4663-9C1C-504A2BCB55F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89AE7361-7A21-4663-9C1C-504A2BCB55F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89AE7361-7A21-4663-9C1C-504A2BCB55F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
