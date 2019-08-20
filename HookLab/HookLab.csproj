@@ -16,7 +16,6 @@
         </None>
     </ItemGroup>
     <ItemGroup>
-      <Folder Include="Functions" />
       <Folder Include="Models\GitLab" />
       <Folder Include="Models\Slack" />
     </ItemGroup>
