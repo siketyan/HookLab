@@ -15,8 +15,4 @@
             <CopyToPublishDirectory>Never</CopyToPublishDirectory>
         </None>
     </ItemGroup>
-    <ItemGroup>
-      <Folder Include="Models\GitLab" />
-      <Folder Include="Models\Slack" />
-    </ItemGroup>
 </Project>
