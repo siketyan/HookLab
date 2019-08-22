@@ -22,12 +22,13 @@ namespace HookLab.Providers.GitLab
                 {
                     var e = Deserialize<NoteEvent>(json);
                 
-                    return new Notification
+                    return new Notification(this)
                     {
                         Title = e.User.Name,
                         Content = e.Note.Content,
                         Header = e.Project.PathWithNamespace,
-                        Url = e.Note.Url
+                        Url = e.Note.Url,
+                        Sender = e.User.Username
                     };
                 }
                 

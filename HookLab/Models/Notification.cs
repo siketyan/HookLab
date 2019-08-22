@@ -9,7 +9,14 @@ namespace HookLab.Models
         public string Title { get; set; }
         public string Content { get; set; }
         public string Header { get; set; }
+        public string Sender { get; set; }
         public Uri Url { get; set; }
+        public IProvider Provider { get; }
+
+        public Notification(IProvider provider)
+        {
+            Provider = provider;
+        }
         
         public class Builder
         {
