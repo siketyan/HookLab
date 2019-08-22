@@ -18,6 +18,11 @@ Transfers your notifications on GitLab to Slack.
 
 ## Configuration
 ```env
-GITLAB_SLACK_USER_DICTIONARY="Username=UXXXXXXXX;AnotherUser=UYYYYYYYY;"
+GITLAB_SLACK_USER_DICTIONARY="KKKKKK=UXXXXXXXX;LLLLLL=UYYYYYYYY;"
 SLACK_BOT_TOKEN="xoxb-NNNNNNNNNNN-MMMMMMMMMMMM-ZZZZZZZZZZZZZZZZZZZZZZZZ"
 ```
+
+- `GITLAB_SLACK_USER_DICTIONARY`: The dictionary to convert from GitLab users to Slack users.
+    - `KKKKKK`, `LLLLLL`: The identifier of the GitLab user.
+    - `UXXXXXXXX`, `UYYYYYYYY`: The identifier of the Slack user.
+- `SLACK_BOT_TOKEN`: The OAuth token of the Bot user.
