@@ -11,7 +11,8 @@ namespace HookLab.Configurations
 
         public static class Keys
         {
-            public const string SlackWebhookUrl = "SLACK_WEBHOOK_URL";
+            public const string GitLabSlackUserDictionary = "GITLAB_SLACK_USER_DICTIONARY";
+            public const string SlackBotToken = "SLACK_BOT_TOKEN";
         }
     }
 }

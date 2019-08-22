@@ -3,6 +3,7 @@ using HookLab.Providers;
 using HookLab.Providers.GitLab;
 using HookLab.Targets;
 using HookLab.Targets.Slack;
+using HookLab.UserDictionaries;
 
 namespace HookLab.Configurations
 {
@@ -17,8 +18,16 @@ namespace HookLab.Configurations
         {
             new SlackTarget(
                 Configuration.Get(
-                    Configuration.Keys.SlackWebhookUrl
-                )
+                    Configuration.Keys.SlackBotToken
+                ),
+                new UserDictionaryManager(new IUserDictionary[]
+                {
+                    new GitLabSlackUserDictionary(
+                        Configuration.Get(
+                            Configuration.Keys.GitLabSlackUserDictionary
+                        )
+                    ), 
+                })
             )
         };
     }
