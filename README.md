@@ -10,8 +10,14 @@ Transfers your notifications on GitLab to Slack.
 
 ## Installation
 1. Create a Slack app.
-2. Add the Incoming Webhook feature to the app.
+2. Add the Bot User feature to the app.
 3. Deploy this project to Azure Functions.
-4. Set the environment variable `SLACK_WEBHOOK_URL` to the Webhook URL on Slack.
+4. Configure environment variables.
 5. Add an integration to the function with the key on GitLab.
 6. Done!
+
+## Configuration
+```env
+GITLAB_SLACK_USER_DICTIONARY="Username=UXXXXXXXX;AnotherUser=UYYYYYYYY;"
+SLACK_BOT_TOKEN="xoxb-NNNNNNNNNNN-MMMMMMMMMMMM-ZZZZZZZZZZZZZZZZZZZZZZZZ"
+```
