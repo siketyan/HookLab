@@ -28,7 +28,7 @@ namespace HookLab.Providers.GitLab
                         Content = e.Note.Content,
                         Header = e.Project.PathWithNamespace,
                         Url = e.Note.Url,
-                        Sender = e.User.Username
+                        Sender = e.MergeRequest.AuthorId.ToString()
                     };
                 }
                 
