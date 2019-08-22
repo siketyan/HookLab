@@ -1,6 +1,6 @@
 # HookLab
 
-[![Azure DevOps builds](https://img.shields.io/azure-devops/build/Naoki-Ikeguchi/0fb24f1c-f96d-4fe9-b02a-2a1fcf3df7cf/1)](https://dev.azure.com/Naoki-Ikeguchi/HookLab/_build?definitionId=1)
+[![Build Status](https://dev.azure.com/Naoki-Ikeguchi/HookLab/_apis/build/status/HookLab%20-%201%20-%20CI?branchName=master)](https://dev.azure.com/Naoki-Ikeguchi/HookLab/_build/latest?definitionId=1&branchName=master)
 [![SUSHI-WARE LICENSE](https://img.shields.io/badge/license-SUSHI--WARE%F0%9F%8D%A3-blue.svg)](https://github.com/MakeNowJust/sushi-ware)
 
 Transfers your notifications on GitLab to Slack.
